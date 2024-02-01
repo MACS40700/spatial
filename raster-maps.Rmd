@@ -28,7 +28,7 @@ chi_bb <- c(
 )
 
 # retrieve bounding box
-chicago <- get_stamenmap(
+chicago <- get_stadiamap(
   bbox = chi_bb,
   zoom = _______
 )
@@ -81,7 +81,7 @@ hp_bb <- c(
 )
 
 # retrieve bounding box
-hyde_park <- get_stamenmap(
+hyde_park <- get_stadiamap(
   bbox = hp_bb,
   zoom = _______,
   ______ = ______
