@@ -7,6 +7,7 @@ output: html_document
 library(tidyverse)
 library(ggmap)
 library(here)   # for specifying directory location
+register_stadiamaps("apikey") #add your API key (either here or in rprofile, etc)
 ```
 
 ## Import 311 service requests
